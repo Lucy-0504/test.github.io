@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="NGODonatepage.css">
+    <link rel="shortcut icon" type="image/png" href="file:///C:/Users/Admin/Downloads/Websitepictures/faviconwhite.png">
+    <script src="https://kit.fontawesome.com/c311c70baa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="scrolltop" onclick ="scrollToTop();">
+    </div>
+    <section class="header">
+        <nav>
+            <div class="background">
+            <a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGO1stpage.html"><img src="file:///C:/Users/Admin/Downloads/Websitepictures/Logo2white.png"> </a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                <b> <li><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGO1stpage.html"><i class="fas fa-home"> &nbsp;Home</a></i></li> </b>
+                <b> <li><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGOissuespage.html"><i class="fas fa-exclamation-triangle">&nbsp;&nbsp;Issues</a></i></li> </b>
+                <b>  <li><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGODonatepage.html"><i class="fas fa-donate">&nbsp;&nbsp;Donate</a></i></li> </b>
+                <b> <li><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGOAdoptpage.html"><i class="fas fa-paw">&nbsp;&nbsp;Adopt a Pet</a></i></li> </b>
+                <b> <li><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGOAboutus.html"><i class="fas fa-info">&nbsp;&nbsp;About Us</a></i></li> </b>
+                <b> <li><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGOContactus.html"><i class="fas fa-phone-alt">&nbsp;&nbsp;Contact</a></i></li> </b>
+                <b> <li><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/loginregisterform.html"><i class="fas fa-user">&nbsp;&nbsp; Account</i></a></li> </b>
+            </div>
+        </nav> 
+        <section class="donate">
+            <h2>DONATE</h2>
+            <span></span>
+            </section>
+            <section class="donationtext">
+                <br><br><br>
+            <p>Thank you for the donations you made towards <b>The VELIFEM</b> to help the animals.
+            <br>Your donations, be it small or large, help us provide the necesary care and affection to the animals in need.</p>
+        </section>
+        </section>
+        <section id="donationform">
+    <fieldset>
+            <h2>Donation Form</h2> <br><br>
+            <span></span>
+            <center>
+            <form class="form">
+                <br><br><input type="email" class="email2" placeholder="Email ID">
+                <p><input type = "text" class = "name" placeholder = "First Name" required>
+                &nbsp;&nbsp;&nbsp;
+                <input type="text" class="name" placeholder="Last Name" required></p>
+                <p><br><br><input type="email" class="email" placeholder="Email ID" required></p>
+                <p><br><br><input class="address" placeholder="Country" required>
+                    &nbsp;&nbsp;&nbsp;
+                <input class="address" placeholder="State" required>
+                &nbsp;&nbsp;&nbsp;
+                <input class="address" placeholder="City" required></p>
+                <p><br><br><input type="text" id="myNum" placeholder="Country Code" maxlength="3" required>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="text" id="myNumtwo" placeholder="Contact Number" maxlength="10" required></p>
+                    <br>
+                    <p><br> <div class="texttwo"> Purpose Of Donation - &nbsp;&nbsp;&nbsp; </div>
+                        <br>
+                        <select class="purpose" required>
+                        <option value="" disabled selected>Please Select</option>
+                        <option value="1">General Donation</option>
+                        <option value="2">To feed the animals</option>
+                        <option value="3">For veterinary care</option>
+                        <option value="4">For building homes for animals</option>
+                        <option value="5">Towards other specific cause specific cause</option>
+                    </select>
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="text" class="others" placeholder="If Other specific cause, Please Mention"></p>
+                        <br>
+                    <p><div class="texttwo"> Type of Donation - &nbsp;&nbsp;&nbsp; </div>
+                        <br>
+                        <select class="type" required>
+                        <option value="" disabled selected>Please Select</option>
+                        <option value="1">One Time Donation</option>
+                        <option value="2">Monthly Donation</option>
+                        <option value="3">Quarterly Donation</option>
+                        <option value="4">Half-Yearly Donation</option>
+                        <option value="5">Yearly Donation</option>
+                    </select></p>
+                    <br>
+                    <p>
+                        <div class="texttwo"> Currency and Amount - &nbsp;&nbsp;&nbsp; </div>
+                        <br>
+                        
+                        <select class="currency" required>
+                        <option value="" disabled selected>Please Select</option>
+                        <option value="1">USD</option>
+                        <option value="2">EUR</option>
+                        <option value="3">JPY</option>
+                        <option value="4">GBP</option>
+                        <option value="5">CHF</option>
+                        <option value="5">CAD</option>
+                        <option value="5">AUD</option>
+                        <option value="5">ZAR</option>
+                        <option value="5">AED</option>
+                        <option value="5">INR</option>
+                    </select>
+                        &nbsp;&nbsp;&nbsp;
+                        <input type="text" class="others" placeholder="Amount" required></p>
+                        <br>
+                    </p>
+                        <br>
+                    <p><div class="texttwo"> Payment Method - &nbsp;&nbsp;&nbsp; </div>
+                        <br>
+                        <div class="paymentmethod" required>
+                        <input type="radio" name="payment">&nbsp;&nbsp;Credit / Debit Card <br>
+                        <input type="radio" name="payment">&nbsp;&nbsp;E-Wallets<br>
+                        <input type="radio" name="payment">&nbsp;&nbsp;UPI<br>
+                        <input type="radio" name="payment">&nbsp;&nbsp;Money Order / Demand Draft <br>
+                    </div></p>
+                </center>
+                    <br>
+                    <p>
+                        <div class="textthree">Notes (if any)</div> <br>
+                        <textarea id="comments" placeholder="Please write additional comments here (if any)." rows="4" cols="40" name="comments"></textarea>
+                    </p>
+            <center>
+                <br> <button type="button" class="donate-btn"><a href="file:///C:/Users/Admin/Desktop/HTML,%20CSS,%20JS/Website/NGOThankyoupage.html"> Donate </a></button>
+            </form>
+            </center>
+    </fieldset>
+    </section>
+    <section id="footererer">
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="file:///C:/Users/Admin/Downloads/Websitepictures/Logo2white.png" class="logo">
+                    <p>The VELIFEM is an NGO for stray animals
+                       to provide them with all the necesary
+                       health care and attention they deserve.
+                    </p>
+                    <br> <br>
+                    <h3>Donate</h3><br>
+                    <p>We rely on you to donate in order<br>
+                       to rescue, feed and provide<br>
+                       necessary care and to keep fighting<br>
+                       for the animals.
+                    </p>
+                </div>
+                <div class="col2">
+                    <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Useful Links</h3> <br>
+                    <p> 
+                        <ul>
+                            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What We Do</a></li><br>
+                            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Careers</a></li><br>
+                            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fundraising</a></li><br>
+                            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Become a Volunteer</a></li><br>
+                            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy</a></li><br>
+                            <li><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms and Conditions</a></li><br>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col3">
+                    <h3>Contact Us</h3><br>
+                    <p>
+                       <h5> Email </h5> <br>
+                       For Queries - <br> 
+                       queries.thevelifemngo@gmail.com <br> <br>
+                       For Registering a Complaint - <br>  
+                       fac.thevelifemngo@gmail.com <br>
+                       <br>
+                       <h5> Call Us </h5> <br>
+                       Surat - 12345xxxx <br>
+                       Mumbai - 99875xxxx <br>
+                       Delhi - 84523xxxx <br>
+                    </p>
+                </div>
+                <div class="col2">
+                    <h3>Headquarters</h3><br>
+                    <p> 
+                        Bunglow Number xx, XYZ Society,<br>
+                        Near ABC Row House, EFG Marg,<br>
+                        Adajan, Surat - 395xxx.
+                    </p>
+                    <p> 
+                        Bunglow Number xx, XYZ Society,<br>
+                        Near ABC Row House, EFG Marg,<br>
+                        Bhayender, Mumbai - 400xxx.
+                    </p>
+                    <p> 
+                        Bunglow Number xx, XYZ Society,<br>
+                        Near ABC Row House, EFG Marg,<br>
+                        Karol Bagh, Delhi - 110xxx.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var scroll = document.querySelector('.scrolltop');
+            scroll.classList.toggle("active" , window.scrollY > 500)
+        })
+        function scrollToTop(){
+            window.scrollTo({
+                top: 0
+            })
+        }
+    </script>
+</body>
+</html> 
